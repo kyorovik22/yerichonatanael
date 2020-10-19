@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="tugas.css">
+    <style>
+        .A {
+      width: 50%;
+      margin: auto;
+      box-sizing: border-box;
+    }    
+    </style>
+</head>
+<body>  
+    <img src="22.png" >
+    <form method="POST" action="data.php">
+        <div class="A">
+        <fieldset>
+        <legend class="B"><b>Akun</b></legend>
+        <Table>
+            <tr>
+                <td>
+                    <label for="name">Username</label> </td>                   
+                <td><input type="text" name="Username" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td><Input type="password" name="password" id="pass" required minlength="8"></Input></td>
+            </tr>
+            <tr>
+                <td><label for="copass">Konfirmasi Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                <td><input type="password" name="copassword" id="copass" required minlength="8"></td>
+            </tr>
+        </Table>
+        </fieldset>
+        </div>
+        <br>
+        <div class="A">
+        <fieldset>
+            <legend class="B"><b>Data</b></legend>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama </label></td> 
+                    <td><input type="text" name="nama" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Tempat Lahir</label></td>
+                    <td><input type="text" name="" id="alamat"></td>
+                </tr>
+                <tr>
+                    <td><label for="ttl">Tanggal Lahir</label></td>
+                    <td><input type="date" name="ttl" id="ttl"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Laki-Laki</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="radio" name="gender" id="gender1">
+                        <label for="gender1">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Alamat">Alamat</label></td>
+                    <td><textarea name="alamat" id="" cols="22" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jurusan</td>
+                    <td><select name="jurusan" id="jurusan">
+                        <option value="">Pilih Jurusan</option>
+                        <option value="S1TI">S1 Teknologi Informasi</option>
+                        <option value="S1ilkom">S1 Ilmu Komputer</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hobi">Hobi</label> 
+                    </td>
+                        <td> 
+                        <input type="checkbox" name="hobi" id="hobi">
+                        <label for="hobi">Membaca</label> 
+                         </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="hobi" id="hobi">
+                        <label for="hobi">Musik</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="hobi" id="hobi">
+                        <label for="hobi">Olahraga</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="hobi" id="hobi">
+                        <label for="hobi">Travelling</label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>No.Handphone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="" name="" id=""></td>
+                </tr>
+            </table>
+        </fieldset>
+    
+        <table>
+            <tr>
+                <td><input class="C" type="submit" value="Daftar"> &nbsp; &nbsp; 
+                <input class="D" type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
