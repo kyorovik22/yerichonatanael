@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bg3.jpg);
+    background-size: cover;
+}
+
+fieldset{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.30em;
+    padding-bottom: 0.60em;
+    padding-left: 0.70em;
+    padding-right: 0.70em;
+      border-radius: 15px;
+      background-color: Putih;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+@font-face{
+    font-family:Paper Flowers;
+    src: url('Paper Flowers.ttf');
+    
+}
+.A{
+    font-family:Paper Flowers;
+    font-size: 18pt;
+}
+.B{
+    font-size: 20pt;
+}
+@font-face{
+    font-family: LemonMilk-Bold;
+        src: url('Lemon Milk-Bold.otf');
+}
+.C{
+   font-family: LemonMilk-Bold;
+   font-size: 13pt;
+   background-color: darkgray;
+   font-weight: 800;
+}
+.D{
+    font-family: LemonMilk-Bold;
+   font-size: 13pt;
+   background-color: darkgray;
+   font-weight: 800;
+}
